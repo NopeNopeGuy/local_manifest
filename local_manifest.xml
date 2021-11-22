@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <remote name="github" fetch="https://github.com" />
+ <remote name="me" 
+         fetch="https://github.com/sajidshahriar72543" />
+ <remote name="carbonrom" 
+         fetch="https://github.com/CarbonROM" />
+ 
  
  <!-- Trees -->
  <project path="device/xiaomi/beryllium" name="sajidshahriar72543/device_xiaomi_beryllium.git" remote="github" revision="los-18.1" />
