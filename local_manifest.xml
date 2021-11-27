@@ -10,7 +10,7 @@
          fetch="https://github.com/LineageOS" />
  
  <!-- Removals -->
- <remove-project name="android_hardware_qcom_media" />
+ <remove-project name="hardware_qcom-caf_sdm845_media" />
   
   
  <!-- Trees -->
