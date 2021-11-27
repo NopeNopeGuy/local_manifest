@@ -9,6 +9,10 @@
  <remote name="LineageOS" 
          fetch="https://github.com/LineageOS" />
  
+ <!-- Removals -->
+ <remove-project name="android_hardware_qcom_media" />
+  
+  
  <!-- Trees -->
   
  <!-- Device Tree -->
@@ -36,5 +40,12 @@
           name="android_hardware_xiaomi.git" 
           remote="LineageOS" 
           revision="lineage-18.1" />
+
+ <!-- HALS -->
+ <project path="hardware/qcom-caf/sdm845/media" 
+          name="platform_hardware_qcom_media" 
+          remote="aex-tmp" 
+          revision="11.x-caf-sdm845" 
+          clone-depth="1" />
  
 </manifest>
