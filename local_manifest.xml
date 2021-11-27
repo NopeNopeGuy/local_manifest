@@ -8,6 +8,8 @@
          fetch="https://github.com/PainKiller3" />
  <remote name="LineageOS" 
          fetch="https://github.com/LineageOS" />
+ <remote name="aex-tmp" 
+         fetch="https://github.com/aex-tmp" />
  
  <!-- Removals -->
  <remove-project name="hardware_qcom-caf_sdm845_media" />
