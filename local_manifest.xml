@@ -10,6 +10,8 @@
          fetch="https://github.com/LineageOS" />
  <remote name="resist15" 
          fetch="https://github.com/resist15" />
+ <remote name="kdrag0n" 
+         fetch="https://github.com/kdrag0n" />
  
  <!-- Removals -->
  <remove-project name="hardware_qcom-caf_sdm845_media" />
@@ -49,5 +51,12 @@
           remote="resist15" 
           revision="r" 
           clone-depth="1" />
- 
+
+ <!-- Toolchain -->
+ <project path="prebuilts/clang/host/linux-x86/proton-clang" 
+          name="proton-clang" 
+          remote="kdrag0n"
+          revision="master" 
+          clone-depth="1" />
+        
 </manifest>
