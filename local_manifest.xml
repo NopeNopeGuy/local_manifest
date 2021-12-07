@@ -15,7 +15,6 @@
  
  <!-- Removals -->
  <remove-project name="hardware_qcom-caf_sdm845_media" />
- <!-- <remove-project path="prebuilts/clang/host/linux-x86" /> -->
   
   
  <!-- Trees -->
@@ -51,13 +50,6 @@
           name="hardware_qcom-caf_sdm845_media" 
           remote="resist15" 
           revision="r" 
-          clone-depth="1" />
-
- <!-- Toolchain -->
- <project path="prebuilts/clang/host/linux-x86/clang-proton" 
-          name="proton-clang" 
-          remote="kdrag0n"
-          revision="master" 
           clone-depth="1" />
         
 </manifest>
