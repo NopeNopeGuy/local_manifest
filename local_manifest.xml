@@ -51,5 +51,12 @@
           remote="resist15" 
           revision="r" 
           clone-depth="1" />
+
+ <!-- Toolchain -->
+ <project path="prebuilts/clang/host/linux-x86/proton-clang" 
+          name="proton-clang" 
+          remote="kdrag0n"
+          revision="master" 
+          clone-depth="1" />
         
 </manifest>
