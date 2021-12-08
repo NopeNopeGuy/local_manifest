@@ -58,5 +58,12 @@
           remote="kdrag0n"
           revision="master" 
           clone-depth="1" />
+
+
+ <project path="packages/resources/devicesettings" 
+          name="android_packages_resources_devicesettings" 
+          remote="LineageOS" 
+          revision="lineage-18.1" 
+          clone-depth="1" />
         
 </manifest>
