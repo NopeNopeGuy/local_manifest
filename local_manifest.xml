@@ -13,8 +13,8 @@
  <remote name="kdrag0n" 
          fetch="https://github.com/kdrag0n" />
  
- <!-- Removals -->
- <remove-project name="hardware_qcom-caf_sdm845_media" />
+ <!-- Removals 
+ <remove-project name="hardware_qcom-caf_sdm845_media" /> -->
   
   
  <!-- Trees -->
@@ -45,12 +45,12 @@
           remote="LineageOS" 
           revision="lineage-18.1" />
 
- <!-- HALS -->
+ <!-- HALS 
  <project path="hardware/qcom-caf/sdm845/media" 
           name="hardware_qcom-caf_sdm845_media" 
           remote="resist15" 
           revision="r" 
-          clone-depth="1" />
+          clone-depth="1" /> -->
 
  <!-- Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/proton-clang" 
