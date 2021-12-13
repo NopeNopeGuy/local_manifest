@@ -16,7 +16,9 @@
          fetch="https://github.com/ArrowOS-Devices" />
  <remote name="aex-tmp" 
          fetch="https://github.com/aex-tmp" />
- 
+ <remote name="PixelExperience" 
+         fetch="https://github.com/PixelExperience" /> 
+
  <!-- Removals 
  <remove-project name="hardware_qcom-caf_sdm845_media" />
  <remove-project name="hardware_qcom-caf_sdm845_audio" />
@@ -67,7 +69,11 @@
           name="platform_hardware_qcom_display" 
           remote="aex-tmp"
           revision="12.x-caf-sdm845" />
-
+ <!-- sepolicy_vndr -->
+ <project path="device/qcom/sepolicy_vndr" 
+          name="device_qcom_sepolicy_vndr" 
+          remote="PixelExperience"
+          revision="twelve" />
 
  <!-- Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-proton" 
