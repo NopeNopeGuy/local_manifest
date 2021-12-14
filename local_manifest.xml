@@ -57,15 +57,15 @@
 <project path="hardware/qcom-caf/sdm845/media" 
           name="android_hardware_qcom_media.git" 
           remote="LineageOS"
-          revision="lineage-18.1-caf-sdm845" />
+          revision="lineage-19.0-caf-sdm845" />
 <project path="hardware/qcom-caf/sdm845/display" 
           name="android_hardware_qcom_display.git" 
           remote="LineageOS"
-          revision="lineage-18.1-caf-sdm845" />
-<project path="hardware/qcom-caf/sdm845/audio.git" 
-          name="android_hardware_qcom_audio" 
+          revision="lineage-19.0-caf-sdm845" />
+<project path="hardware/qcom-caf/sdm845/audio" 
+          name="android_hardware_qcom_audio.git" 
           remote="LineageOS"
-          revision="lineage-18.1-caf-sdm845" />
+          revision="lineage-19.0-caf-sdm845" />
 
  <!-- sepolicy_vndr -->
  <project path="device/qcom/sepolicy_vndr" 
