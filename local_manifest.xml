@@ -10,14 +10,16 @@
          fetch="https://github.com/LineageOS" />
  <remote name="resist15" 
          fetch="https://github.com/resist15" />
- <remote name="kdrag0n" 
-         fetch="https://github.com/kdrag0n" />
+ <!-- <remote name="kdrag0n" 
+         fetch="https://github.com/kdrag0n" /> -->
  <remote name="ArrowOS-Devices" 
          fetch="https://github.com/ArrowOS-Devices" />
  <remote name="aex-tmp" 
          fetch="https://github.com/aex-tmp" />
  <remote name="PixelExperience" 
          fetch="https://github.com/PixelExperience" /> 
+ <remote name="varunhardgamer" 
+         fetch="https://gitlab.com/varunhardgamer" />
 
  <!-- Removals 
  <remove-project name="hardware_qcom-caf_sdm845_media" />
@@ -76,10 +78,10 @@
           revision="twelve" />
 
  <!-- Toolchain -->
- <project path="prebuilts/clang/host/linux-x86/clang-proton" 
-          name="proton-clang" 
-          remote="kdrag0n"
-          revision="master" 
+ <project path="prebuilts/clang/host/linux-x86/clang-custom" 
+          name="trb_clang" 
+          remote="varunhardgamer"
+          revision="14"
           clone-depth="1" />
         
 </manifest>
