@@ -14,8 +14,8 @@
          fetch="https://github.com/kdrag0n" /> -->
  <remote name="ArrowOS-Devices" 
          fetch="https://github.com/ArrowOS-Devices" />
- <remote name="aex-tmp" 
-         fetch="https://github.com/aex-tmp" />
+ <!-- <remote name="aex-tmp" 
+         fetch="https://github.com/aex-tmp" /> -->
  <remote name="PixelExperience" 
          fetch="https://github.com/PixelExperience" /> 
  <remote name="varunhardgamer" 
@@ -57,20 +57,21 @@
  <!-- HALS -->
 
  <!-- media -->
- <project path="hardware/qcom-caf/sdm845/media" 
+ <!-- <project path="hardware/qcom-caf/sdm845/media" 
           name="platform_hardware_qcom_media" 
           remote="aex-tmp"
-          revision="12.x-caf-sdm845" />
+          revision="12.x-caf-sdm845" /> -->
  <!-- audio -->
- <project path="hardware/qcom-caf/sdm845/audio" 
+ <!-- <project path="hardware/qcom-caf/sdm845/audio" 
           name="platform_hardware_qcom_audio" 
           remote="aex-tmp"
-          revision="12.x-caf-sdm845" />
+          revision="12.x-caf-sdm845" /> -->
  <!-- display -->
- <project path="hardware/qcom-caf/sdm845/display" 
+ <!-- <project path="hardware/qcom-caf/sdm845/display" 
           name="platform_hardware_qcom_display" 
           remote="aex-tmp"
-          revision="12.x-caf-sdm845" />
+          revision="12.x-caf-sdm845" /> -->
+
  <!-- sepolicy_vndr -->
  <project path="device/qcom/sepolicy_vndr" 
           name="device_qcom_sepolicy_vndr" 
