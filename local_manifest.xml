@@ -21,8 +21,8 @@
 
  <!-- Removals 
  <remove-project name="hardware_qcom-caf_sdm845_media" />
- <remove-project name="hardware_qcom-caf_sdm845_audio" />
- <remove-project name="hardware_qcom-caf_sdm845_display" /> -->
+ <remove-project name="hardware_qcom-caf_sdm845_audio" /> -->
+ <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
   
  <!-- Trees -->
   
@@ -72,6 +72,11 @@
           name="device_qcom_sepolicy_vndr" 
           remote="PixelExperience"
           revision="twelve" />
+
+ <project path="vendor/qcom/opensource/commonsys-intf/display" 
+          name="android_vendor_qcom_opensource_display-commonsys-intf.git" 
+          remote="sajidshahriar72543"
+          revision="lineage-18.1" />
 
  <!-- Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-custom" 
