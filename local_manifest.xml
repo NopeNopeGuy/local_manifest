@@ -10,19 +10,19 @@
          fetch="https://github.com/LineageOS" />
  <remote name="resist15" 
          fetch="https://github.com/resist15" />
- <!-- <remote name="kdrag0n" 
-         fetch="https://github.com/kdrag0n" /> -->
  <remote name="ArrowOS-Devices" 
          fetch="https://github.com/ArrowOS-Devices" />
- <remote name="PixelExperience" 
-         fetch="https://github.com/PixelExperience" /> 
+ <remote name="ArrowOS" 
+         fetch="https://github.com/ArrowOS" />
  <remote name="varunhardgamer" 
          fetch="https://gitlab.com/varunhardgamer" />
+ <remote name="aex-tmp" 
+         fetch="https://github.com/aex-tmp" />
 
  <!-- Removals 
  <remove-project name="hardware_qcom-caf_sdm845_media" />
  <remove-project name="hardware_qcom-caf_sdm845_audio" /> -->
- <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
+ <remove-project name="android_vendor_qcom_opensource_vibrator" />
   
  <!-- Trees -->
   
@@ -30,17 +30,17 @@
  <project path="device/xiaomi/beryllium" 
           name="device_xiaomi_beryllium.git" 
           remote="sajidshahriar72543" 
-          revision="styx" />
+          revision="syb" />
  <!-- Common Tree -->
  <project path="device/xiaomi/sdm845-common" 
           name="device_xiaomi_sdm845-common.git" 
           remote="sajidshahriar72543" 
-          revision="12" />
+          revision="twelve" />
  <!-- Vendor Tree -->
  <project path="vendor/xiaomi" 
           name="vendor_xiaomi.git" 
           remote="resist15"
-          revision="s" />
+          revision="twelve" />
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/sdm845" 
           name="kernel_xiaomi_sdm845.git" 
@@ -51,32 +51,25 @@
           name="android_hardware_xiaomi.git" 
           remote="ArrowOS-Devices"
           revision="arrow-12.0" />
+ <!-- Vibrator HAL -->
+ <project path="vendor/qcom/opensource/vibrator" 
+          name="android_vendor_qcom_opensource_vibrator.git" 
+          remote="ArrowOS"
+          revision="arrow-12.0" />
 
  <!-- HALS -->
-
 <project path="hardware/qcom-caf/sdm845/media" 
-          name="android_hardware_qcom_media.git" 
-          remote="LineageOS"
-          revision="lineage-19.0-caf-sdm845" />
+          name="platform_hardware_qcom_media.git" 
+          remote="aex-tmp"
+          revision="12.x-caf-sdm845" />
 <project path="hardware/qcom-caf/sdm845/display" 
-          name="android_hardware_qcom_display.git" 
-          remote="LineageOS"
-          revision="lineage-19.0-caf-sdm845" />
+          name="platform_hardware_qcom_display.git" 
+          remote="aex-tmp"
+          revision="12.x-caf-sdm845" />
 <project path="hardware/qcom-caf/sdm845/audio" 
-          name="android_hardware_qcom_audio.git" 
-          remote="LineageOS"
-          revision="lineage-19.0-caf-sdm845" />
-
- <!-- sepolicy_vndr -->
- <project path="device/qcom/sepolicy_vndr" 
-          name="device_qcom_sepolicy_vndr" 
-          remote="PixelExperience"
-          revision="twelve" />
-
- <project path="vendor/qcom/opensource/commonsys-intf/display" 
-          name="android_vendor_qcom_opensource_display-commonsys-intf.git" 
-          remote="sajidshahriar72543"
-          revision="lineage-18.1" />
+          name="platform_hardware_qcom_audio.git" 
+          remote="aex-tmp"
+          revision="12.x-caf-sdm845" />
 
  <!-- Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-custom" 
