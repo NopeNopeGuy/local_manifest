@@ -20,8 +20,8 @@
          fetch="https://github.com/aex-tmp" />
 
  <!-- Removals 
- <remove-project name="hardware_qcom-caf_sdm845_media" />
- <remove-project name="hardware_qcom-caf_sdm845_audio" /> -->
+ <remove-project name="hardware_qcom-caf_sdm845_media" /> -->
+ <remove-project name="platform_build" />
  <remove-project name="android_vendor_qcom_opensource_vibrator" />
   
  <!-- Trees -->
@@ -77,5 +77,19 @@
           remote="varunhardgamer"
           revision="14"
           clone-depth="1" />
+
+ <!-- Custom platform_build -->
+  <project path="build/make" 
+           name="platform_build.git"
+           remote="sajidshahriar72543"
+           revision="12.0" >
+   <copyfile src="core/root.mk" dest="Makefile" />
+   <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+   <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+   <linkfile src="core" dest="build/core" />
+   <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+   <linkfile src="target" dest="build/target" />
+   <linkfile src="tools" dest="build/tools" />
+ </project>
         
 </manifest>
