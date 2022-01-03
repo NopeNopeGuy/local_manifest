@@ -27,6 +27,7 @@
  <remove-project name="hardware_qcom-caf_sdm845_media" /> -->
  <remove-project name="platform_build" />
  <remove-project name="android_vendor_qcom_opensource_vibrator" />
+ <remove-project path="vendor/syberia/prebuilt/google/apk" />
   
  <!-- Trees -->
   
