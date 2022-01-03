@@ -18,6 +18,8 @@
          fetch="https://gitlab.com/varunhardgamer" />
  <remote name="aex-tmp" 
          fetch="https://github.com/aex-tmp" />
+ <remote name="spark" 
+         fetch="https://github.com/Spark-Devices" />
 
  <!-- Removals 
  <remove-project name="hardware_qcom-caf_sdm845_media" /> -->
@@ -38,9 +40,9 @@
           revision="twelve" />
  <!-- Vendor Tree -->
  <project path="vendor/xiaomi" 
-          name="vendor_xiaomi.git" 
-          remote="resist15"
-          revision="twelve" />
+          name="android_vendor_xiaomi_beryllium.git" 
+          remote="spark"
+          revision="spark" />
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/sdm845" 
           name="kernel_xiaomi_sdm845.git" 
