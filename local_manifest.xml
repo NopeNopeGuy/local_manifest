@@ -35,7 +35,7 @@
  <project path="device/xiaomi/beryllium" 
           name="device_xiaomi_beryllium.git" 
           remote="sajidshahriar72543" 
-          revision="syb" />
+          revision="syberia" />
  <!-- Common Tree -->
  <project path="device/xiaomi/sdm845-common" 
           name="device_xiaomi_sdm845-common.git" 
@@ -43,9 +43,9 @@
           revision="twelve" />
  <!-- Vendor Tree -->
  <project path="vendor/xiaomi" 
-          name="android_vendor_xiaomi_beryllium.git" 
-          remote="spark"
-          revision="spark" />
+          name="vendor_xiaomi.git" 
+          remote="sajidshahriar72543"
+          revision="twelve" />
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/sdm845" 
           name="kernel_xiaomi_sdm845.git" 
