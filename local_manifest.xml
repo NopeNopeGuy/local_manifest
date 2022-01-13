@@ -28,7 +28,8 @@
  <remove-project name="platform_build" />
  <remove-project name="android_vendor_qcom_opensource_vibrator" />
  <remove-project name="platform_vendor_syberia" />
-  
+ <remove-project name="platform_system_sepolicy" />
+
  <!-- Trees -->
   
  <!-- Device Tree -->
@@ -87,6 +88,12 @@
           remote="varunhardgamer"
           revision="14"
           clone-depth="1" />
+          
+ <!-- sepolicy -->
+ <project path="system/sepolicy" 
+          name="platform_system_sepolicy" 
+          remote="sajidshahriar72543"
+          revision="12.0" />
 
  <!-- gms -->
  <project path="vendor/gms" 
