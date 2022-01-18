@@ -29,6 +29,8 @@
  <remove-project name="android_vendor_qcom_opensource_vibrator" />
  <remove-project name="platform_vendor_syberia" />
  <remove-project name="platform_system_sepolicy" />
+ <remove-project name="platform_frameworks_base" />
+ <remove-project name="platform_packages_apps_SyberiaSettings" />
 
  <!-- Trees -->
   
@@ -100,6 +102,18 @@
           name="android_vendor_gms" 
           remote="gms"
           revision="12" />
+
+ <!-- fwb -->
+ <project path="frameworks/base" 
+          name="platform_frameworks_base" 
+          remote="sajidshahriar72543"
+          revision="12.0" /> 
+
+ <!-- syberia_settings -->
+ <project path="packages/apps/SyberiaSettings" 
+          name="platform_packages_apps_SyberiaSettings" 
+          remote="sajidshahriar72543"
+          revision="12.0" /> 
 
  <!-- Custom platform_build -->
   <project path="build/make" 
