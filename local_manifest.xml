@@ -6,10 +6,6 @@
          fetch="https://github.com/sajidshahriar72543" />
  <remote name="PainKiller3" 
          fetch="https://github.com/PainKiller3" />
- <remote name="LineageOS" 
-         fetch="https://github.com/LineageOS" />
- <remote name="resist15" 
-         fetch="https://github.com/resist15" />
  <remote name="ArrowOS-Devices" 
          fetch="https://github.com/ArrowOS-Devices" />
  <remote name="ArrowOS" 
@@ -18,13 +14,10 @@
          fetch="https://gitlab.com/varunhardgamer" />
  <remote name="aex-tmp" 
          fetch="https://github.com/aex-tmp" />
- <remote name="spark" 
-         fetch="https://github.com/Spark-Devices" />
  <remote name="gms" 
          fetch="https://gitlab.com/Project-Awaken" />
 
- <!-- Removals 
- <remove-project name="hardware_qcom-caf_sdm845_media" /> -->
+ <!-- Removals -->
  <remove-project name="platform_build" />
  <remove-project name="android_vendor_qcom_opensource_vibrator" />
  <remove-project name="platform_vendor_syberia" />
@@ -71,15 +64,15 @@
           revision="arrow-12.0" />
 
  <!-- HALS -->
-<project path="hardware/qcom-caf/sdm845/media" 
+ <project path="hardware/qcom-caf/sdm845/media" 
           name="platform_hardware_qcom_media.git" 
           remote="aex-tmp"
           revision="12.x-caf-sdm845" />
-<project path="hardware/qcom-caf/sdm845/display" 
+ <project path="hardware/qcom-caf/sdm845/display" 
           name="platform_hardware_qcom_display.git" 
           remote="aex-tmp"
           revision="12.x-caf-sdm845" />
-<project path="hardware/qcom-caf/sdm845/audio" 
+ <project path="hardware/qcom-caf/sdm845/audio" 
           name="platform_hardware_qcom_audio.git" 
           remote="aex-tmp"
           revision="12.x-caf-sdm845" />
