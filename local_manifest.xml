@@ -18,12 +18,16 @@
          fetch="https://gitlab.com/Project-Awaken" />
 
  <!-- Removals -->
- <remove-project name="platform_build" />
+ <!-- <remove-project name="platform_build" />
  <remove-project name="android_vendor_qcom_opensource_vibrator" />
  <remove-project name="platform_vendor_syberia" />
  <remove-project name="platform_system_sepolicy" />
  <remove-project name="platform_frameworks_base" />
- <remove-project name="platform_packages_apps_SyberiaSettings" />
+ <remove-project name="platform_packages_apps_SyberiaSettings" /> -->
+ <remove-project name="hardware_qcom-caf_sdm845_audio" />
+ <remove-project name="hardware_qcom-caf_sdm845_display" />
+ <remove-project name="hardware_qcom-caf_sdm845_media" />
+ <remove-project name="packages_resources_devicesettings" />
 
  <!-- Trees -->
   
@@ -31,7 +35,7 @@
  <project path="device/xiaomi/beryllium" 
           name="device_xiaomi_beryllium.git" 
           remote="sajidshahriar72543" 
-          revision="syberia" />
+          revision="pos" />
  <!-- Common Tree -->
  <project path="device/xiaomi/sdm845-common" 
           name="device_xiaomi_sdm845-common.git" 
@@ -53,15 +57,15 @@
           remote="ArrowOS-Devices"
           revision="arrow-12.0" />
  <!-- Vendor Tree -->
- <project path="vendor/syberia" 
+ <!-- <project path="vendor/syberia" 
           name="platform_vendor_syberia.git" 
           remote="sajidshahriar72543"
-          revision="12.0" />
+          revision="12.0" /> -->
  <!-- Vibrator HAL -->
- <project path="vendor/qcom/opensource/vibrator" 
+ <!-- <project path="vendor/qcom/opensource/vibrator" 
           name="android_vendor_qcom_opensource_vibrator.git" 
           remote="ArrowOS"
-          revision="arrow-12.0" />
+          revision="arrow-12.0" /> -->
 
  <!-- HALS -->
  <project path="hardware/qcom-caf/sdm845/media" 
@@ -83,33 +87,39 @@
           remote="varunhardgamer"
           revision="14"
           clone-depth="1" />
-          
+
+ <!-- Device settings -->
+ <project path="packages/resources/devicesettings" 
+          name="LineageOS/android_packages_resources_devicesettings"
+          remote="github" 
+          revision="lineage-19.0" />    
+ 
  <!-- sepolicy -->
- <project path="system/sepolicy" 
+ <!-- <project path="system/sepolicy" 
           name="platform_system_sepolicy" 
           remote="sajidshahriar72543"
-          revision="12.0" />
+          revision="12.0" /> -->
 
  <!-- gms -->
- <project path="vendor/gms" 
+ <!-- <project path="vendor/gms" 
           name="android_vendor_gms" 
           remote="gms"
-          revision="12" />
+          revision="12" /> -->
 
  <!-- fwb -->
- <project path="frameworks/base" 
+ <!-- <project path="frameworks/base" 
           name="platform_frameworks_base" 
           remote="sajidshahriar72543"
-          revision="12.0" /> 
+          revision="12.0" />  -->
 
  <!-- syberia_settings -->
- <project path="packages/apps/SyberiaSettings" 
+ <!-- <project path="packages/apps/SyberiaSettings" 
           name="platform_packages_apps_SyberiaSettings" 
           remote="sajidshahriar72543"
-          revision="12.0" /> 
+          revision="12.0" />  -->
 
  <!-- Custom platform_build -->
-  <project path="build/make" 
+  <!-- <project path="build/make" 
            name="platform_build.git"
            remote="sajidshahriar72543"
            revision="12.0" >
@@ -120,6 +130,6 @@
    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
    <linkfile src="target" dest="build/target" />
    <linkfile src="tools" dest="build/tools" />
- </project>
+ </project> -->
         
 </manifest>
