@@ -28,6 +28,7 @@
  <remove-project name="hardware_qcom-caf_sdm845_media" />
  <remove-project name="packages_resources_devicesettings" />
  <remove-project name="build" />
+ <remove-project name="system_sepolicy" />
 
  <!-- Trees -->
   
@@ -95,10 +96,10 @@
           revision="lineage-19.0" />    
  
  <!-- sepolicy -->
- <!-- <project path="system/sepolicy" 
-          name="platform_system_sepolicy" 
+ <project path="system/sepolicy" 
+          name="system_sepolicy" 
           remote="sajidshahriar72543"
-          revision="12.0" /> -->
+          revision="twelve" />
 
  <!-- gms -->
  <!-- <project path="vendor/gms" 
