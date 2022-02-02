@@ -41,7 +41,7 @@
  <project path="device/xiaomi/sdm845-common" 
           name="device_xiaomi_sdm845-common.git" 
           remote="sajidshahriar72543" 
-          revision="test" />
+          revision="twelve-pos" />
  <!-- Vendor Tree -->
  <project path="vendor/xiaomi" 
           name="vendor_xiaomi.git" 
