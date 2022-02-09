@@ -20,8 +20,6 @@
          fetch="https://github.com/aex-tmp" />
  <remote name="spark" 
          fetch="https://github.com/Spark-Devices" />
- <remote name="gms" 
-         fetch="https://gitlab.com/Project-Awaken" />
 
  <!-- Removals 
  <remove-project name="hardware_qcom-caf_sdm845_media" /> -->
@@ -94,12 +92,6 @@
           name="platform_system_sepolicy" 
           remote="sajidshahriar72543"
           revision="12.0" />
-
- <!-- gms -->
- <project path="vendor/gms" 
-          name="android_vendor_gms" 
-          remote="gms"
-          revision="12" />
 
  <!-- Custom platform_build -->
   <project path="build/make" 
