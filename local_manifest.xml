@@ -12,10 +12,10 @@
          fetch="https://github.com/ArrowOS" />
  <remote name="varunhardgamer" 
          fetch="https://gitlab.com/varunhardgamer" />
- <remote name="aex-tmp" 
-         fetch="https://github.com/aex-tmp" />
  <remote name="gms" 
          fetch="https://gitlab.com/Project-Awaken" />
+ <remote name="LineageOS" 
+         fetch="https://github.com/LineageOS" />
 
  <!-- Removals -->
  <!-- <remove-project name="android_vendor_qcom_opensource_vibrator" />
@@ -58,30 +58,20 @@
           name="android_hardware_xiaomi.git" 
           remote="ArrowOS-Devices"
           revision="arrow-12.0" />
- <!-- Vendor Tree -->
- <!-- <project path="vendor/syberia" 
-          name="platform_vendor_syberia.git" 
-          remote="sajidshahriar72543"
-          revision="12.0" /> -->
- <!-- Vibrator HAL -->
- <!-- <project path="vendor/qcom/opensource/vibrator" 
-          name="android_vendor_qcom_opensource_vibrator.git" 
-          remote="ArrowOS"
-          revision="arrow-12.0" /> -->
 
  <!-- HALS -->
  <project path="hardware/qcom-caf/sdm845/media" 
-          name="platform_hardware_qcom_media.git" 
-          remote="aex-tmp"
-          revision="12.x-caf-sdm845" />
+          name="android_hardware_qcom_media.git" 
+          remote="LineageOS"
+          revision="lineage-19.0-caf-sdm845" />
  <project path="hardware/qcom-caf/sdm845/display" 
-          name="platform_hardware_qcom_display.git" 
-          remote="aex-tmp"
-          revision="12.x-caf-sdm845" />
+          name="android_hardware_qcom_display.git" 
+          remote="LineageOS"
+          revision="lineage-19.0-caf-sdm845" />
  <project path="hardware/qcom-caf/sdm845/audio" 
-          name="platform_hardware_qcom_audio.git" 
-          remote="aex-tmp"
-          revision="12.x-caf-sdm845" />
+          name="android_hardware_qcom_audio.git" 
+          remote="LineageOS"
+          revision="lineage-19.0-caf-sdm845" />
 
  <!-- Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-custom" 
@@ -103,7 +93,7 @@
           revision="twelve" />
 
  <!-- gms -->
- <!-- <project path="vendor/gms" 
+ <!-- <project path="vendor/gapps" 
           name="android_vendor_gms" 
           remote="gms"
           revision="12" /> -->
@@ -113,12 +103,6 @@
           name="frameworks_base" 
           remote="sajidshahriar72543"
           revision="staging/twelve" /> 
-
- <!-- syberia_settings -->
- <!-- <project path="packages/apps/SyberiaSettings" 
-          name="platform_packages_apps_SyberiaSettings" 
-          remote="sajidshahriar72543"
-          revision="12.0" />  -->
 
  <!-- Custom platform_build -->
    <project path="build/make" 
