@@ -75,6 +75,6 @@
  <!-- Device settings -->
  <project path="packages/resources/devicesettings" 
           name="android_packages_resources_devicesettings"
-          remote="github" 
+          remote="LineageOS" 
           revision="lineage-19.0" />   
 </manifest>
