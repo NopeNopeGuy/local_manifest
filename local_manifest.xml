@@ -20,10 +20,10 @@
  <remove-project name="platform_vendor_syberia" />
  <remove-project name="platform_system_sepolicy" />
  <remove-project name="platform_frameworks_base" />
- <remove-project name="platform_packages_apps_SyberiaSettings" /> -->
+ <remove-project name="platform_packages_apps_SyberiaSettings" /> 
  <remove-project name="android_hardware_qcom_audio" />
  <remove-project name="android_hardware_qcom_display" />
- <remove-project name="android_hardware_qcom_media" />
+ <remove-project name="android_hardware_qcom_media" /> -->
 
  <!-- Trees -->
   
@@ -54,7 +54,7 @@
           revision="arrow-12.0" />
 
  <!-- HALS -->
- <project path="hardware/qcom-caf/sdm845/media" 
+ <!-- <project path="hardware/qcom-caf/sdm845/media" 
           name="android_hardware_qcom_media.git" 
           remote="ArrowOS"
           revision="arrow-12.0-caf-sdm845" />
@@ -65,7 +65,7 @@
  <project path="hardware/qcom-caf/sdm845/audio" 
           name="android_hardware_qcom_audio.git" 
           remote="ArrowOS"
-          revision="arrow-12.0-caf-sdm845" />
+          revision="arrow-12.0-caf-sdm845" /> -->
 
  <!-- Toolchain -->
  <project path="prebuilts/clang/host/linux-x86/clang-custom" 
