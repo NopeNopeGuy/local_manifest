@@ -12,7 +12,7 @@
          fetch="https://github.com/LineageOS" />
 
  <!-- Removals -->
- <!-- <remove-project name="packages_resources_devicesettings" /> -->
+ <remove-project name="android_frameworks_base" />
 
  <!-- Trees -->
   
@@ -35,6 +35,11 @@
  <project path="kernel/xiaomi/sdm845" 
           name="kernel_xiaomi_sdm845.git" 
           remote="PainKiller3" 
+          revision="twelve" />
+ <!-- FWB -->
+ <project path="frameworks/base" 
+          name="android_frameworks_base.git" 
+          remote="sajidshahriar72543" 
           revision="twelve" />
 
 </manifest>
