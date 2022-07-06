@@ -13,6 +13,7 @@
 
  <!-- Removals -->
  <remove-project name="android_frameworks_base" />
+ <remove-project name="android_packages_apps_Settings" />
 
  <!-- Trees -->
   
@@ -39,6 +40,11 @@
  <!-- FWB -->
  <project path="frameworks/base" 
           name="android_frameworks_base.git" 
+          remote="sajidshahriar72543" 
+          revision="twelve" />
+ <!-- Settings -->
+ <project path="packages/apps/Settings" 
+          name="android_packages_apps_Settings.git" 
           remote="sajidshahriar72543" 
           revision="twelve" />
 
