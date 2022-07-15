@@ -10,12 +10,12 @@
          fetch="https://github.com/ArrowOS-Devices" />
  <remote name="LineageOS" 
          fetch="https://github.com/LineageOS" />
- <remote name="pos" 
-         fetch="https://github.com/PixelOS-Devices" />
+ <remote name="paperboy" 
+         fetch="https://github.com/paperboy72543" />
 
- <!-- Removals 
+ <!-- Removals -->
  <remove-project name="android_frameworks_base" />
- <remove-project name="android_packages_apps_Settings" /> -->
+ <remove-project name="android_packages_apps_Settings" />
 
  <!-- Trees -->
   
@@ -31,24 +31,24 @@
           revision="fuse" />
  <!-- Vendor Tree -->
  <project path="vendor/xiaomi" 
-          name="vendor_xiaomi_beryllium.git" 
-          remote="pos"
+          name="vendor_xiaomi.git" 
+          remote="PainKiller3"
           revision="twelve" />
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/sdm845" 
           name="kernel_xiaomi_sdm845.git" 
           remote="PainKiller3" 
           revision="twelve" />
- <!-- FWB 
+ <!-- FWB -->
  <project path="frameworks/base" 
           name="android_frameworks_base.git" 
           remote="paperboy" 
-          revision="twelve" /> -->
- <!-- Settings 
+          revision="twelve" /> 
+ <!-- Settings -->
  <project path="packages/apps/Settings" 
           name="android_packages_apps_Settings.git" 
           remote="paperboy" 
-          revision="twelve" /> -->
+          revision="twelve" /> 
  <!-- nothing  
  <project path="vendor/nothing" 
           name="vendor_nothing.git" 
