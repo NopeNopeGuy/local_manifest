@@ -2,61 +2,52 @@
 <manifest>
 
   <!-- Remotes -->
- <remote name="sajidshahriar72543" 
-         fetch="https://github.com/sajidshahriar72543" />
- <remote name="PainKiller3" 
-         fetch="https://github.com/PainKiller3" />
- <remote name="LineageOS" 
+ <remote name="pos" 
+         fetch="https://github.com/PixelOS-Devices" />
+ <remote name="sup" 
+         fetch="https://github.com/SuperiorOS-Devices" />
+ <remote name="arrow" 
+         fetch="https://github.com/ArrowOS-Devices" />
+ <remote name="LOS" 
          fetch="https://github.com/LineageOS" />
- <remote name="resist15" 
-         fetch="https://github.com/resist15" />
- <remote name="kdrag0n" 
-         fetch="https://github.com/kdrag0n" />
  
  <!-- Removals -->
- <remove-project name="hardware_qcom-caf_sdm845_media" />
+ <remove-project name="android_packages_resources_devicesettings" />
+ <!-- <remove-project name="hardware_qcom-caf_sdm845_media" /> -->
+ <!-- <remove-project name="hardware_qcom-caf_sdm845_media" /> -->
   
   
  <!-- Trees -->
   
  <!-- Device Tree -->
- <project path="device/xiaomi/beryllium" 
-          name="device_xiaomi_beryllium.git" 
-          remote="sajidshahriar72543" 
-          revision="arcane" />
+ <project path="device/xiaomi/whyred" 
+          name="device_xiaomi_whyred.git.git" 
+          remote="pos" 
+          revision="thirteen" />
  <!-- Common Tree -->
- <project path="device/xiaomi/sdm845-common" 
-          name="device_xiaomi_sdm845-common.git" 
-          remote="sajidshahriar72543" 
-          revision="arcane" />
+ <project path="device/xiaomi/sdm660-common" 
+          name="device_xiaomi_sdm660-common.git" 
+          remote="pos" 
+          revision="thirteen" />
  <!-- Vendor Tree -->
  <project path="vendor/xiaomi" 
-          name="vendor_xiaomi.git" 
-          remote="sajidshahriar72543" 
-          revision="11" />
+          name="vendor_xiaomi_whyred.git" 
+          remote="pos" 
+          revision="thirteen" />
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/sdm845" 
-          name="kernel_xiaomi_sdm845.git" 
-          remote="PainKiller3" 
-          revision="twelve" />
+          name="kernel_xiaomi_whyred.git" 
+          remote="sup" 
+          revision="thirteen" />
  <!-- HW Tree -->
  <project path="hardware/xiaomi" 
           name="android_hardware_xiaomi.git" 
-          remote="LineageOS" 
-          revision="lineage-18.1" />
+          remote="arrow" 
+          revision="arrow-13.0" />
+  <!-- devicesettings -->
+ <project path="packages/resources/devicesettings" 
+          name="android_packages_resources_devicesettings.git" 
+          remote="LOS" 
+          revision="lineage-19.1" />
 
- <!-- HALS -->
- <project path="hardware/qcom-caf/sdm845/media" 
-          name="hardware_qcom-caf_sdm845_media" 
-          remote="resist15" 
-          revision="r" 
-          clone-depth="1" />
-
- <!-- Toolchain -->
- <project path="prebuilts/clang/host/linux-x86/clang-proton" 
-          name="proton-clang" 
-          remote="kdrag0n"
-          revision="master" 
-          clone-depth="1" />
-        
 </manifest>
