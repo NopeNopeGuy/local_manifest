@@ -23,7 +23,7 @@
  <project path="device/xiaomi/whyred" 
           name="device_xiaomi_whyred.git" 
           remote="pos" 
-          revision="thirteen" />
+          revision="arrow" />
  <!-- Common Tree -->
  <project path="device/xiaomi/sdm660-common" 
           name="device_xiaomi_sdm660-common.git" 
