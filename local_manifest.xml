@@ -21,7 +21,7 @@
   
  <!-- Device Tree -->
  <project path="device/xiaomi/whyred" 
-          name="device_xiaomi_whyred.git.git" 
+          name="device_xiaomi_whyred.git" 
           remote="pos" 
           revision="thirteen" />
  <!-- Common Tree -->
