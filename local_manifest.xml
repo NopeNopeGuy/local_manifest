@@ -6,7 +6,7 @@
          fetch="https://github.com/PixelOS-Devices" />
  <remote name="sup" 
          fetch="https://github.com/SuperiorOS-Devices" />
- <remote name="arrow" 
+ <remote name="arrrow" 
          fetch="https://github.com/ArrowOS-Devices" />
  <remote name="LOS" 
          fetch="https://github.com/LineageOS" />
@@ -42,7 +42,7 @@
  <!-- HW Tree -->
  <project path="hardware/xiaomi" 
           name="android_hardware_xiaomi.git" 
-          remote="arrow" 
+          remote="arrrow" 
           revision="arrow-13.0" />
   <!-- devicesettings -->
  <!-- <project path="packages/resources/devicesettings" 
