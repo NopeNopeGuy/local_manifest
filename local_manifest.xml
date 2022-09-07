@@ -35,7 +35,7 @@
           remote="pos" 
           revision="thirteen" />
  <!-- Kernel Tree -->
- <project path="kernel/xiaomi/sdm845" 
+ <project path="kernel/xiaomi/whyred" 
           name="kernel_xiaomi_whyred.git" 
           remote="sup" 
           revision="thirteen" />
