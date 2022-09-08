@@ -44,7 +44,15 @@
           name="android_hardware_xiaomi.git" 
           remote="arrrow" 
           revision="arrow-13.0" />
-  <!-- devicesettings -->
+  
+  <!-- Toolchain -->
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" 
+          name="proton-clang" 
+          remote="kdrag0n"
+          revision="master" 
+          clone-depth="1" />
+  
+ <!-- devicesettings -->
  <!-- <project path="packages/resources/devicesettings" 
           name="android_packages_resources_devicesettings.git" 
           remote="LOS" 
