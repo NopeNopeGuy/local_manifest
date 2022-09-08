@@ -16,7 +16,7 @@
          fetch="https://github.com/sajidshahriar72543" />
  
  <!-- Removals -->
- <!-- <remove-project name="android_packages_resources_devicesettings" /> -->
+ <remove-project name="android_system_libhidl" />
  <!-- <remove-project name="hardware_qcom-caf_sdm845_media" /> -->
  <!-- <remove-project name="hardware_qcom-caf_sdm845_media" /> -->
   
