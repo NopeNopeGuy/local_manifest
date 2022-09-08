@@ -12,6 +12,8 @@
          fetch="https://github.com/LineageOS" />
  <remote name="kdrag0n" 
          fetch="https://github.com/kdrag0n" />
+ <remote name="me" 
+         fetch="https://github.com/sajidshahriar72543" />
  
  <!-- Removals -->
  <!-- <remove-project name="android_packages_resources_devicesettings" /> -->
@@ -53,6 +55,12 @@
           remote="kdrag0n"
           revision="master" 
           clone-depth="1" />
+  
+<!--  libhidl  -->
+  <project path="system/libhidl" 
+          name="android_system_libhidl" 
+          remote="me"
+          revision="arrow-13.0" />
   
  <!-- devicesettings -->
  <!-- <project path="packages/resources/devicesettings" 
