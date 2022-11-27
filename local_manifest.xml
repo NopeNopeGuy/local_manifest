@@ -16,7 +16,7 @@
          fetch="https://github.com/sajidshahriar72543" />
  
  <!-- Removals -->
- <remove-project name="android_system_libhidl" />
+ <!-- <remove-project name="android_system_libhidl" /> -->
  <!-- <remove-project name="hardware_qcom-caf_sdm845_media" /> -->
  <!-- <remove-project name="hardware_qcom-caf_sdm845_media" /> -->
   
@@ -56,11 +56,6 @@
           revision="master" 
           clone-depth="1" />
   
-<!--  libhidl  -->
-  <project path="system/libhidl" 
-          name="android_system_libhidl" 
-          remote="me"
-          revision="arrow-13.0" />
   
  <!-- devicesettings -->
  <!-- <project path="packages/resources/devicesettings" 
