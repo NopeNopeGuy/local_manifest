@@ -14,6 +14,8 @@
          fetch="https://github.com/kdrag0n" />
  <remote name="me" 
          fetch="https://github.com/sajidshahriar72543" />
+ <remote name="gitlab" 
+         fetch="https://gitlab.com/" />
  
  <!-- Removals -->
  <!-- <remove-project name="android_system_libhidl" /> -->
@@ -56,6 +58,11 @@
           revision="master" 
           clone-depth="1" />
   
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
+           name="ImSurajxD/clang-r450784d.git" 
+           remote="gitlab" 
+           revision="master" 
+           clone-depth="1" />
   
  <!-- devicesettings -->
  <!-- <project path="packages/resources/devicesettings" 
